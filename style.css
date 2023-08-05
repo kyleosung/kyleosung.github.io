@@ -7,13 +7,13 @@ html, body {
 /* Set a nice background color and font-family */
 body {
   background-color: #f8f8f8;
-  font-family: Calibri, sans-serif;
+  font-family: "Calibri Light", sans-serif;
 }
 
 /* Styling for the header */
 header {
   background-color: #333;
-  color: #fff;
+  color: #f8f8f8;
   text-align: center;
   padding: 20px;
 }
@@ -21,10 +21,11 @@ header {
 header h1 {
   font-size: 50px;
   margin: 0;
+  color: #f8f8f8;
 }
 
 header h2 {
-  color: #ffffff;
+  color: #f8f8f8;
 }
 
 nav {
@@ -37,7 +38,7 @@ nav {
 }
 
 nav a {
-  color: #ffffff;
+  color: #f8f8f8;
   text-decoration: none;
   padding: 6px 12px;
   margin: 0 6px;
@@ -90,6 +91,18 @@ a:hover {
 
 
 
+.col {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -110,10 +123,21 @@ footer {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+div.inline, a.inline {
+  float: left;
+  width: 30%;
+  padding: 0px;
+}
+
+div.row::after, a.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 img.streaming-images {
-  border-radius: 24px;
+  border-radius: 8.5%;
   margin-right:auto;
   margin-left:auto;
   display:block;
