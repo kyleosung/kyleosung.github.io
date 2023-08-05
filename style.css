@@ -125,7 +125,7 @@ footer {
 
 div.inline, a.inline {
   float: left;
-  width: 20%;
+  width: 7em;
   padding: 0px;
 }
 
