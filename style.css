@@ -118,3 +118,7 @@ img.streaming-images {
   margin-left:auto;
   display:block;
 }
+
+nav a.active {
+  background-color: 222;
+}
