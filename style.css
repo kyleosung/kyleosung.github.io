@@ -160,12 +160,14 @@ nav a.active {
 table {
   border-collapse: collapse;
 }
-th, td {
-  padding-right: 12px;
+td {
+  padding-right: 16px;
   text-align: left;
 }
 th {
   border-bottom: 0px;
+  padding-right: 14px;
+  text-align: left;
 }
 td {
   border: none;
