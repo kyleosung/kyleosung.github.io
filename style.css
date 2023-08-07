@@ -150,3 +150,24 @@ img.streaming-images {
 nav a.active {
   background-color: 222;
 }
+
+
+
+
+
+/* Table on Music Page */
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding-right: 12px;
+  text-align: left;
+}
+th {
+  border-bottom: 0px;
+}
+td {
+  border: none;
+  border-bottom: 0px;
+}
