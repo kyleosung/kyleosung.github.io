@@ -2,6 +2,12 @@
 html, body {
   margin: 0;
   padding: 0;
+  counter-reset: week; /* Reset the counter once for the whole document */
+}
+
+h3[id="Week"]::before {
+  counter-increment: week;
+  content: "Week " counter(week);
 }
 
 /* Set a nice background color and font-family */
