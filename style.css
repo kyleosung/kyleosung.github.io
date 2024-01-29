@@ -10,6 +10,10 @@ h3[id="Week"]::before {
   content: "Week " counter(week);
 }
 
+p[id="Subheading"]::before {
+  content: "Week " counter(week) "; /* Display the current value of the counter, without incrementing */
+}
+
 /* Set a nice background color and font-family */
 body {
   background-color: #f8f8f8;
